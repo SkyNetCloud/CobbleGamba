@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblegamba",
+  "version": "${version}",
+  "name": "CobbleGamba",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cobblegamba/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "ca.skynetcloud.cobblegamba.Cobblegamba"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
