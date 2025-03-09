@@ -8,7 +8,7 @@
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/cobblegamba/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "ca.skynetcloud.cobblegamba.Cobblegamba"
